@@ -5,7 +5,7 @@
 # latex-gloassaries-to-typst-gloassarium
 
 ## Background
-Python scripts to translate glossary entries for LaTeX's **glossaries** package to entries for the **glossarium** package of Typst.
+Python scripts to translate glossary entries for LaTeX's [**glossaries**](https://ctan.org/pkg/glossaries) package to entries for the [**glossarium**](https://typst.app/universe/package/glossarium/) package of Typst.
 Insert the returned list of entries inside `#let entry-list = ( )` in the `glossary.typ` file.
 This file is for the storage of **gloassarium** entries.
 It is imported into the main file's namespace with the function `#import "glossary.typ": entry-list`.
