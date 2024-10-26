@@ -19,7 +19,9 @@ LaTeX has three kinds of glossaries: main glossary, acronyms, and mathematical n
 Examples are found in the glossaries folder.
 
 Use the entries in the main text by entering `#gls("entry key")` in your prose. 
-Set the show-all key to true to print all of the entries: `#print-glossary(entry-list, show-all: true)`.
+Set the show-all key to true to print all entries: `#print-glossary(entry-list, show-all: true)`.
+
+Below is a snapshot of part of the acronym list generated in the back matter of an annotated bibliography on the *typst.app*. The list had been translated from the acryonyms.tex file used with the glossaries package in LaTeX.
 
 <img width="908" alt="Screenshot 2024-10-26 at 8 35 56 AM" src="https://github.com/user-attachments/assets/10fcf83e-2840-4bb8-8b1e-a59ba22dd429">
 
@@ -32,9 +34,9 @@ Script for conversion of acronyms is ready.
 
 ## Update history
 
-|Version      | Changes                                                                                                                                                                         | Date                 |
-|:-----------|:------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|
-| Version 0.1 |   Added badges, funding, and update table.  Initial commit.                                                                                                                | 2024 October 26  |
+|Version      | Changes                                                                                        | Date                |
+|:------------|:-----------------------------------------------------------------------------------------------|:--------------------|
+| Version 0.1 |   Added badges, funding, and update table.  Initial commit.                                    | 2024 October 26     |
 
 ## Sources of funding
 
