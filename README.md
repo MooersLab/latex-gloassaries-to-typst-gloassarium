@@ -4,6 +4,8 @@
 
 # latex-gloassaries-to-typst-gloassarium
 
+A nice introduction to Typst in October 2024 by Dr. Chase Brown of the University of Central Florida is found [here](https://mediasite.ouhsc.edu/Mediasite/Channel/python/browse/null/most-recent/null/0/null).
+
 ## Background
 Python scripts to translate glossary entries for LaTeX's [**glossaries**](https://ctan.org/pkg/glossaries) package to entries for the [**glossarium**](https://typst.app/universe/package/glossarium/) package of Typst.
 Insert the returned list of entries inside `#let entry-list = ( )` in the `glossary.typ` file.
